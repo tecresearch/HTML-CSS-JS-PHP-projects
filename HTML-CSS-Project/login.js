@@ -22,7 +22,7 @@ var objUser = [
 ]
 
 function getInfoMe(){
-    alert(` Test Username: ${objUser[0].username} <br> Test Password: ${objUser[0].password}`);
+    
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
     for ( var i = 0; i <objUser.length; i++) {
