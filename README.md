@@ -44,6 +44,15 @@ Welcome to my collection of web development projects! 🚀 Dive in to explore di
 
 ---
 
+---
+
+### 5. [DOM Project Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/Dom-manupulation-project/)
+💻 **An interactive DOM project showcasing various   functionalities.**
+
+[![DOM Project -Database crud webapp](https://via.placeholder.com/250x100.png?text=DOM+Project+Website)](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/Dom-manupulation-project/)
+
+---
+
 
 ## 📜 License
 
