@@ -6,7 +6,7 @@ Welcome to my collection of web development projects! Explore these projects to 
 
 ## 📂 Projects
 
-### 1. [HTML & CSS Project](https://tecresearch.github.io/HTML-CSS-JS-PHP-p# 🌐 Web Development Projects
+### 1. [HTML & CSS Project](https://tecresearch.github.io/HTML-CSS-JS-PHP 🌐 Web Development Projects
 
 Welcome to my collection of web development projects! 🚀 Dive in to explore different web technologies in action.
 
