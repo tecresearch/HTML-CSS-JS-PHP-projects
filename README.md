@@ -37,7 +37,7 @@ Welcome to my collection of web development projects! 🚀 Dive in to explore di
 
 ---
 
-### 3. [JavaScript Project Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/php-project/)
+### 4. [PHP Project Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/php-project/)
 💻 **An interactive PHP project showcasing various mysql crud  functionalities.**
 
 [![Php Project -Database crud webapp](https://via.placeholder.com/250x100.png?text=PHP+Project+Website)](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/php-project/))
