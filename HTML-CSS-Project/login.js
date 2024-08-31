@@ -21,6 +21,8 @@ var objUser = [
 
 ]
 
+        alert(` Test Username: ${objUser[0].username} <br> Test Password: ${objUser[0].password}`);
+ 
 function getInfoMe(){
     
     var username = document.getElementById("username").value;
