@@ -20,7 +20,7 @@ A simple Todo App to help you manage your tasks efficiently, built with JavaScri
 
 ---
 
-### 3. [JavaScript Project Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/Javascript%20Project-website/)
+### 3. [JavaScript Project Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/Javascript%20Project-website/index.html)
 An interactive JavaScript project showcasing various web functionalities.
 
 ![JavaScript Project Website](https://via.placeholder.com/250x100.png?text=JavaScript+Project+Website)
