@@ -21,7 +21,7 @@ var objUser = [
 
 ]
 
-        alert(` Test Username: ${objUser[0].username} <br> Test Password: ${objUser[0].password}`);
+        alert(` Test Username: ${objUser[0].username} and Test Password: ${objUser[0].password}`);
  
 function getInfoMe(){
     
