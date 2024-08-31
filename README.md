@@ -6,7 +6,7 @@ Welcome to my collection of web development projects! Explore these projects to 
 
 ## 📂 Projects
 
-### 1. [HTML & CSS Project](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/HTML-CSS-JS-PHP-project/)
+### 1. [HTML & CSS Project](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/HTML-CSS-Project/)
 A foundational project demonstrating the use of HTML and CSS to build a responsive webpage.
 
 ![HTML & CSS Project](https://via.placeholder.com/250x100.png?text=HTML+%26+CSS+Project)
