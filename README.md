@@ -53,7 +53,14 @@ Welcome to my collection of web development projects! 🚀 Dive in to explore di
 
 ---
 
+---
 
+### 6. [recipe web app Layout Website](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/recipe-web-app/)
+💻 **An interactive DOM project showcasing various   functionalities.**
+
+[![recipe web app Layout Website](https://via.placeholder.com/250x100.png?text=Layout+Project+Website)](https://tecresearch.github.io/HTML-CSS-JS-PHP-projects/recipe-web-app/)
+
+---
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.

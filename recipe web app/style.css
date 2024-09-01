@@ -1,0 +1,35 @@
+/* Reset padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Add this to include padding and border in the element's total width and height */
+}
+
+
+/* Root container that will use CSS Grid */
+#root {
+   display: grid;
+   grid-template-columns: 20vw 1fr ;
+   grid-template-areas: 
+    /* creating rows to place our grid */
+    "navBar navBar"
+    "sideBar main"
+    "sideBar footer"
+   ;
+}
+
+nav{
+    grid-area: navBar;
+}
+
+aside{
+    grid-area: sideBar;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
