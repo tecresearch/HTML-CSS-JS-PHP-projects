@@ -5,6 +5,7 @@
     box-sizing: border-box; /* Add this to include padding and border in the element's total width and height */
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -22,45 +23,75 @@ html{
 }
 
 nav{
+
     grid-area: navBar;
     background-color: rgb(89, 38, 184);
     color:white;
-    padding:10px;
-    position: fixed;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding:1rem;
+    top:0;
+    position: sticky;
 }
 
-aside{
+aside {
     grid-area: sideBar;
-    position: fixed;
-    top:38px;
-    height: calc(100vh - 38px);
-    background-color: rgba(31, 29, 29, 0.699);
-    width: 20vw;
-    color: white;
-    padding: 20px;
+    position: sticky;
+    top: 51px;
+    height: calc(100vh - 51px);
+    align-self: start;
+    background-color: rgba(36, 34, 34, 0.555);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+ ul{
+    list-style: square;
+    color: rgb(212, 223, 231);
+    font-weight: 600px;
+ }
+@media screen and (max-width: 768px) {
+
+    #root{
+        grid-template-columns: 1fr ;
+
+    }
+
+    aside{
+        position: fixed;
+        width: 300px;
+        display: none;
+        padding: 1rem;
+    }
+    .show{
+        display: block;
+    }
     
 }
 
 main{
     grid-area: main;
-    padding: 20px;
-    height: 88.5vh;
-    margin-top:38px;
+    padding: 1rem;
+   
 }
 
 footer{
     grid-area: footer;
     background-color: rgb(89, 38, 184);
     padding: 10px;
-    position: sticky;
+    
 }
 
 #navBarId .navLeftClass a{
-  
+    padding: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#navBarId .navRightClass a{
+    padding: 10px;
     text-decoration: none;
     color: antiquewhite;
 }

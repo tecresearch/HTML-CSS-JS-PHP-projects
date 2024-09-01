@@ -21,6 +21,7 @@
         const navRight = document.getElementsByClassName('navRightClass');
 
         // Create navbar content dynamically
+        
         const navbarContent = data.navbar.map(item => `<a href="${item.link}">${item.name}</a>`).join(' ');
 
         // Set content for navLeft elements
