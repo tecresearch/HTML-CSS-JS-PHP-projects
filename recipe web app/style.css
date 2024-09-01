@@ -5,6 +5,9 @@
     box-sizing: border-box; /* Add this to include padding and border in the element's total width and height */
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* Root container that will use CSS Grid */
 #root {
@@ -20,16 +23,44 @@
 
 nav{
     grid-area: navBar;
+    background-color: rgb(89, 38, 184);
+    color:white;
+    padding:10px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 aside{
     grid-area: sideBar;
+    position: fixed;
+    top:38px;
+    height: calc(100vh - 38px);
+    background-color: rgba(31, 29, 29, 0.699);
+    width: 20vw;
+    color: white;
+    padding: 20px;
+    
 }
 
 main{
     grid-area: main;
+    padding: 20px;
+    height: 88.5vh;
+    margin-top:38px;
 }
 
 footer{
     grid-area: footer;
+    background-color: rgb(89, 38, 184);
+    padding: 10px;
+    position: sticky;
+}
+
+#navBarId .navLeftClass a{
+  
+    text-decoration: none;
+    color: antiquewhite;
 }

@@ -1,5 +1,3 @@
-// Setting the content from JSON
-
 (async function () {
     try {
         // Fetch the JSON data from the file
@@ -15,21 +13,40 @@
 
         // Get the elements by their IDs or class names
         const navId = document.getElementById('navBarId');
-        const sideBarId = document.getElementById('sideBarId'); // Corrected to singular 'getElementById'
+        const sideBarId = document.getElementById('sideBarId');
         const headingClass = document.getElementsByClassName('headingClass');
         const paragraphClass = document.getElementsByClassName('paragraphClass');
         const footerId = document.getElementById('footerId');
+        const navLeft = document.getElementsByClassName('navLeftClass');
+        const navRight = document.getElementsByClassName('navRightClass');
 
-        // Set content for nav element
-        if (navId) {
-            navId.textContent = data.navbar;
+        // Create navbar content dynamically
+        const navbarContent = data.navbar.map(item => `<a href="${item.link}">${item.name}</a>`).join(' ');
+
+        // Set content for navLeft elements
+        if (navLeft.length > 0) {
+            for (let i = 0; i < navLeft.length; i++) {
+                navLeft[i].innerHTML = navbarContent; // Set HTML content for navLeft elements
+            }
         } else {
-            console.error("Element with ID 'navBarId' not found.");
+            console.error("Elements with class 'navLeftClass' not found.");
         }
+
+        // Set content for navRight elements (search box)
+        if (navRight.length > 0) {
+            for (let i = 0; i < navRight.length; i++) {
+                navRight[i].innerHTML = data.searchBox; // Set HTML content for navRight elements
+            }
+        } else {
+            console.error("Elements with class 'navRightClass' not found.");
+        }
+
+        // Create sidebar content dynamically
+        const sidebarContent = data.sidebar.map(item => `<li>${item}</li>`).join('');
 
         // Set content for sidebar element
         if (sideBarId) {
-            sideBarId.textContent = data.sidebar; // Corrected to use 'sideBarId' variable
+            sideBarId.innerHTML = `<ul>${sidebarContent}</ul>`;
         } else {
             console.error("Element with ID 'sideBarId' not found.");
         }
