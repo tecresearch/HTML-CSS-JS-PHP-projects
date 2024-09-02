@@ -38,38 +38,28 @@ nav{
 aside {
     grid-area: sideBar;
     position: sticky;
-    top: 51px;
-    height: calc(100vh - 51px);
+    top: 57px;
+    height: calc(100vh - 57px);
     align-self: start;
-    background-color: rgba(36, 34, 34, 0.555);
+    background-color: rgb(19, 18, 18);
     display: flex;
+    gap: 5px;
     justify-content: center;
     padding: 1rem;
     
 }
  ul{
-    list-style: square;
+    list-style: none;
     color: rgb(212, 223, 231);
-    font-weight: 600px;
+    font-weight: 300px;
+    display: flex;
+    gap: 15px;
+    flex-direction:column ;
+    align-items: first baseline ;
+    /* background-color: #4e4c4cec; */
+    padding: 2rem;
  }
-@media screen and (max-width: 768px) {
 
-    #root{
-        grid-template-columns: 1fr ;
-
-    }
-
-    aside{
-        position: fixed;
-        width: 300px;
-        display: none;
-        padding: 1rem;
-    }
-    .show{
-        display: block;
-    }
-    
-}
 
 main{
     grid-area: main;
@@ -94,4 +84,84 @@ footer{
     padding: 10px;
     text-decoration: none;
     color: antiquewhite;
+}
+
+/* Style the navigation bar */
+.navRightClass {
+    display: flex;               /* Use flexbox for layout */
+    align-items: center;         /* Align items vertically centered */
+    justify-content: space-between; /* Space out items evenly */
+   
+}
+
+/* Style the input box */
+#searchBox {
+    padding: 2px 5px;           /* Add padding inside the input */
+    font-size: 16px;             /* Set the font size */
+    margin-right: 10px;          /* Add space to the right of the input */
+    border-radius: 4px;          /* Rounded corners for input */
+    border: 1px solid #ccc;      /* Light grey border */
+}
+
+/* Style the Search button */
+button[type="submit"] {
+    padding: 5px 15px;           /* Add padding to the button */
+    background-color: #007BFF;   /* Set button background color */
+    color: white;                /* Button text color */
+    border: none;                /* Remove border */
+    border-radius: 4px;          /* Rounded corners */
+    cursor: pointer;             /* Pointer cursor on hover */
+    margin-right: 10px;          /* Add space to the right of the button */
+}
+
+/* Style the hamburger button */
+#hamburger {
+   display: none;
+}
+
+/* Hover effect for hamburger button */
+#hamburger:hover {
+    background-color: #218838;   /* Darker green when hovered */
+}
+
+@media screen and (max-width: 580px ) {
+
+    #hamburger {
+        background-color: #28a745;   /* Green background color */
+        color: white;                /* White text color */
+        border: none;                /* Remove border */
+        padding: 5px 15px;          /* Padding inside the button */
+        font-size: 16px;             /* Font size for button text */
+        cursor: pointer;             /* Cursor pointer on hover */
+        border-radius: 5px;          /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+        display: block;
+    }
+    
+    /* Hover effect for hamburger button */
+    #hamburger:hover {
+        background-color: #218838;   /* Darker green when hovered */
+    }
+    #root{
+        grid-template-columns: 1fr ;
+
+    }
+    #navBarId {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    aside{
+        position: fixed;
+        top: 88px;
+        width: 300px;
+        display: none;
+        padding: 1rem;
+    }
+    .show{
+        display: block;
+    }
+    
 }
