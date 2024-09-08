@@ -23,7 +23,7 @@
         // Create navbar content dynamically
         
         const navbarContent = data.navbar.map(item => `<a href="${item.link}">${item.name}</a>`).join(' ');
-
+        
         // Set content for navLeft elements
         if (navLeft.length > 0) {
             for (let i = 0; i < navLeft.length; i++) {
